@@ -1,12 +1,12 @@
 #!/bin/bash
 
-START_TIME=$(date +s)
+START_TIME=$(date +%s)
 
 echo "this is current date $START_TIME"
 
 sleep 10
 
-END_TIME=$(date +s)
+END_TIME=$(date +%s)
 
 echo "this is current date $ENDTIME"
 
