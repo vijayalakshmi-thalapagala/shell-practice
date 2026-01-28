@@ -10,5 +10,5 @@ NUM4=vijju
 
 SUM2=$(($NUM3+$NUM4))
 
-echo "first Sum is :$SUM1"
-echo "Second Sum is $SUM2"
+echo "first Sum is: $SUM1"
+echo "Second Sum is: $SUM2"
