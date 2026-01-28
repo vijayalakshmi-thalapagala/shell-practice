@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE= (date )
+DATE= $(date)
 
 echo "this is current date $DATE"
