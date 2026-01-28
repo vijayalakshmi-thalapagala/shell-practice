@@ -8,7 +8,7 @@ sleep 10
 
 END_TIME=$(date +%s)
 
-echo "this is current date $ENDTIME"
+echo "this is end date $END_TIME"
 
 
 DIFF=$(($END_TIME-$START_TIME))
