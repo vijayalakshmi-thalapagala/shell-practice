@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE= $(date)
+TIMESTAMP=$(date)
 
-echo "this is current date $DATE"
+echo "this is current date $TIMESTAMP"
