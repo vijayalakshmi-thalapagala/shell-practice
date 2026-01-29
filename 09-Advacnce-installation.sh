@@ -24,4 +24,4 @@ dnf install nodejs -y
 validate $? "installing nodejs"
 
 dnf install mysql -y
-validate $? ""installing mysql"
+validate $? "installing mysql"
