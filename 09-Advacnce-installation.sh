@@ -15,6 +15,5 @@ validate () {
         exit 1
     else
         echo "$2 ............ success"
-        exit 0
     fi
 }
