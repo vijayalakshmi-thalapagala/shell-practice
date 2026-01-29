@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-mkdir -p $VAR_FOLDER
+
 VAR_FOLDER="/home/ec2-user/shell-practice/LOGS"
 LOGS_FILE="/home/ec2-user/shell-practice/LOGS/$0.log"
 
@@ -11,7 +11,7 @@ if [ $USERID -ne 0 ]; then
     exit 1 
 fi
 
-
+mkdir -p $VAR_FOLDER
 
 validate () {
     if [ $1 -ne 0 ]; then
