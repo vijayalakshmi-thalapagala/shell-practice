@@ -10,7 +10,7 @@ fi
 echo "You are the root user so installing nginx buddy!!"
 dnf install nginx -y
 
-if [$? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     echo "Installation nginx .......... Failed!!"
     exit 1
 else
