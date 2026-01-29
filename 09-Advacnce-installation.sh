@@ -17,3 +17,11 @@ validate () {
         echo "$2 ............ success"
     fi
 }
+dnf install nginx -y
+validate $? "installing nginx"
+
+dnf install nodejs -y
+validate $? "installing nodejs"
+
+dnf install mysql -y
+validate $? ""installing mysql"
