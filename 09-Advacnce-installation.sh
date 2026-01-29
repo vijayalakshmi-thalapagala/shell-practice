@@ -8,10 +8,12 @@ else
     echo "use sudo access buddy!!"
 fi
 
-if [ $? -ne 0 ]; then
-    echo "installing below dependencies"
-    echo "starting with nginx"
-    dnf install nginx -y
-    exit 1
-fi
-
+validate () {
+    if [ $? -ne 0 ]; then
+        echo "$2 ..............failure"
+        exit 1
+    else
+        echo "$2 ............ success"
+        exit 0
+    fi
+}
